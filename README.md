@@ -1,18 +1,6 @@
-# safetyjim
+# Safety Jim
 
-TODO: Write a description here
-
-## Installation
-
-TODO: Write installation instructions here
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+A bot aimed to create a better anti-raid experiance. All accounts detected in a raid will be added to a database, and accross all guilds with a set action will have said action taken agaisnt them. Command handling "borrowed" from [this repo --](https://github.com/Domterion/meowmeow) [by Domterion (mellowmarshe)](https://github.com/Domterion).
 
 ## Contributing
 
@@ -25,3 +13,4 @@ TODO: Write development instructions here
 ## Contributors
 
 - [ibx34](https://github.com/ibx34) - creator and maintainer
+- [Domterion](https://github.com/Domterion) - creator of the command handler
