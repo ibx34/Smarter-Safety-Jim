@@ -11,3 +11,8 @@ targets:
 crystal: 0.36.1
 
 license: MIT
+
+dependencies:
+  discordcr:
+    branch: cr-0.34
+    github: discordcr/discordcr
