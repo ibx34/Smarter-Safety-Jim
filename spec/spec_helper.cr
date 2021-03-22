@@ -1,2 +1,2 @@
 require "spec"
-require "../src/safetyjim"
+require "../src/SafetyJim"

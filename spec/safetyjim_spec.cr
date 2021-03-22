@@ -1,6 +1,6 @@
 require "./spec_helper"
 
-describe Safetyjim do
+describe SafetyJim do
   # TODO: Write tests
 
   it "works" do
