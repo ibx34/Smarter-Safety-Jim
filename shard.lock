@@ -3,4 +3,4 @@ shards:
   discordcr:
     git: https://github.com/discordcr/discordcr.git
     version: 0.4.0+git.commit.936869afd3f3be4b0606d5fd51f4489d46ce58a4
-
+  

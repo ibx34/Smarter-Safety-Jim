@@ -1,6 +1,12 @@
-# TODO: Write documentation for `Safetyjim`
+require "discordcr"
+require "./config"
+
 module Safetyjim
   VERSION = "0.1.0"
 
-  # TODO: Put your code here
+  client = Discord::Client.new(token: "Bot #{TOKEN}", client_id: CLIENT_ID)
+  cache = Discord::Cache.new(client)
+  client.cache = cache
+
+  client.run
 end
