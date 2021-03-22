@@ -15,7 +15,7 @@ class SafetyJim::Context
   getter channel_id : Discord::Snowflake
   getter id : Discord::Snowflake
 
-  getter args : Array(String)?
+  getter args : Array(String)
 
   def initialize(@client, @payload, @command, @handler)
     @author = @payload.author

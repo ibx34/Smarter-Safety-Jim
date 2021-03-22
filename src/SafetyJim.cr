@@ -12,9 +12,15 @@ module SafetyJim
   cache = Discord::Cache.new(client)
   client.cache = cache
 
-  commands = Array(SafetyJim::Command){SafetyJim::PingCmd.new}
+  commands = Array(SafetyJim::Command){SafetyJim::PingCmd.new,SafetyJim::ArgTestCmd.new,SafetyJim::MentionTestCmd.new}
 
   handler = SafetyJim::Handler.new client, PREFIX, OWNER_IDS, commands
 
+  client.on_guild_member_remove do |payload|
+    guild = cache.resolve_guild(payload.guild_id)
+
+    client.create_message(822659538015617037_u64, "Oh no :( someone left...")
+  end
+  
   client.run
 end
